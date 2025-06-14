@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>每日音樂推薦</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background: linear-gradient(180deg, #000000, #555555, #bbbbbb);
+      color: #f0f0f0;
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #ffffffcc;
+      text-align: center;
+    }
+    a {
+      color: #ddd;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    a:hover {
+      color: #fff;
+    }
+    button {
+      background-color: #222;
+      color: #eee;
+      border: none;
+      border-radius: 6px;
+      padding: 10px 15px;
+      cursor: pointer;
+      margin: 5px;
+      font-weight: 600;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    button:hover, button.active {
+      background-color: #eee;
+      color: #222;
+    }
+    .cover-image {
+      border-radius: 10px;
+      box-shadow: 0 0 12px #fff3;
+      max-width: 600px;
+      width: 90%;
+      height: 340px;
+      display: block;
+      margin: 0 auto 10px auto;
+      cursor: pointer;
+      object-fit: contain;
+      background-color: #111;
+    }
+    iframe {
+      max-width: 600px;
+      width: 100%;
+      height: 340px;
+      border-radius: 8px;
+      box-shadow: 0 0 6px #0008;
+      margin-bottom: 10px;
+      display: none;
+    }
+    textarea {
+      width: 100%;
+      height: 80px;
+      background-color: #222;
+      border: 1px solid #555;
+      border-radius: 6px;
+      color: #eee;
+      padding: 10px;
+      resize: vertical;
+    }
+    hr {
+      border-color: #444;
+      margin-top: 40px;
+    }
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+    .comment-section {
+      background-color: #222;
+      padding: 15px;
+      border-radius: 8px;
+      margin-top: 30px;
+    }
+    .comment-list {
+      list-style: none;
+      padding-left: 0;
+      max-height: 150px;
+      overflow-y: auto;
+      margin-bottom: 10px;
+      border: 1px solid #444;
+      border-radius: 6px;
+      background-color: #111;
+    }
+    .comment-list li {
+      padding: 8px;
+      border-bottom: 1px solid #444;
+      color: #ccc;
+    }
+    .song-description {
+      max-width: 600px;
+      margin: 0 auto 30px auto;
+      color: #ccc;
+      font-style: italic;
+      line-height: 1.4;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>小Q的音樂世界 Daily Music Picks</h1>
+
+  <h2>日韓歌曲 J-Pop / K-Pop</h2>
+  <img src="https://img.youtube.com/vi/HFZUAXhdnHk/hqdefault.jpg" alt="LE SSERAFIM - DIFFERENT 封面" class="cover-image" onclick="showVideo(this)" />
+  <iframe data-src="https://www.youtube.com/embed/HFZUAXhdnHk" frameborder="0" allowfullscreen></iframe>
+  <p class="song-description">
+    LE SSERAFIM 帶來充滿力量感的流行風格，展現女子團體的獨特魅力與自信。
+  </p>
+
+  <h2>西洋歌曲 Western</h2>
+  <img src="https://img.youtube.com/vi/cTHp4NBDpis/hqdefault.jpg" alt="SARA KAYS - PICTURE OF YOU 封面" class="cover-image" onclick="showVideo(this)" />
+  <iframe data-src="https://www.youtube.com/embed/cTHp4NBDpis" frameborder="0" allowfullscreen></iframe>
+  <p class="song-description">
+    Sara Kays 的這首《Picture of You》是一首抒情動人的作品，捕捉愛與回憶的細膩情感。
+  </p>
+
+  <h2>華語歌曲 Mandarin</h2>
+  <img src="https://img.youtube.com/vi/M_Pr2HDv2e0/hqdefault.jpg" alt="承桓 - 總會有人 封面" class="cover-image" onclick="showVideo(this)" />
+  <iframe data-src="https://www.youtube.com/embed/M_Pr2HDv2e0" frameborder="0" allowfullscreen></iframe>
+  <p class="song-description">
+    承桓的《總會有人》以溫暖的歌聲陪伴聽者，表達人生路上總有人在身邊支持的信念。
+  </p>
+
+  <h2>電音推薦 EDM Picks</h2>
+  <img src="https://img.youtube.com/vi/aDEShMiBxHI/hqdefault.jpg" alt="Le Castle Vania - Minus Eleven 封面" class="cover-image" onclick="showVideo(this)" />
+  <iframe data-src="https://www.youtube.com/embed/aDEShMiBxHI" frameborder="0" allowfullscreen></iframe>
+  <p class="song-description">
+    Le Castle Vania 的《Minus Eleven》帶來獨特的電音節奏與未來感，適合喜歡刺激的你。
+  </p>
+
+  <hr />
+
+  <h2>聯絡方式 Contact</h2>
+  <p>IG: <a href="https://www.instagram.com/h.p.m_0.9.2.3/" target="_blank" rel="noopener noreferrer">@h.p.m_0.9.2.3</a></p>
+  <p>LINE ID：angel5628</p>
+
+  <hr />
+
+  <div class="comment-section">
+    <h2>留言區 Comments</h2>
+    <ul id="comments" class="comment-list"></ul>
+    <textarea id="commentInput" placeholder="寫下你的留言..."></textarea>
+    <button onclick="addComment()">送出留言</button>
+  </div>
+
+  <script>
+    function showVideo(imgElement) {
+      const iframe = imgElement.nextElementSibling;
+      iframe.style.display = "block";
+      iframe.src = iframe.getAttribute("data-src");
+      imgElement.style.display = "none";
+    }
+
+    function addComment() {
+      const input = document.getElementById('commentInput');
+      const commentText = input.value.trim();
+      if(commentText === '') return alert('留言不可空白');
+      const commentList = document.getElementById('comments');
+      const newComment = document.createElement('li');
+      newComment.textContent = commentText;
+      commentList.appendChild(newComment);
+      input.value = '';
+    }
+  </script>
+
+</body>
+</html>
