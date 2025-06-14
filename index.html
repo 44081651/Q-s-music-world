@@ -78,6 +78,25 @@
     .contact a {
       color: #ccc;
     }
+    footer {
+      background-color: #111;
+      color: #aaa;
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+    }
+    summary {
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 1.1rem;
+      margin-top: 1rem;
+      color: #fff;
+    }
+    ul.song-history {
+      color: #eee;
+      line-height: 1.6;
+      margin-top: 0.5rem;
+    }
     @media screen and (max-width: 600px) {
       h1 {
         font-size: 2rem;
@@ -90,23 +109,93 @@
 </head>
 <body>
   <header>
-    <h1>每日音樂推薦站</h1>
+    <h1>小Q的音樂推薦站</h1>
     <p class="subtitle">Connecting hearts through music, making every day a melody that's uniquely yours.</p>
   </header>
 
-  <section id="music-section">
-    <!-- 動態歌單會在這裡產生 -->
+  <section>
+    <h2>🎶 日韓推薦</h2>
+    <div class="song-card">
+      <div class="video-wrapper" data-video-id="HFZUAXhdnHk" onclick="loadVideo(this)">
+        <img src="https://img.youtube.com/vi/HFZUAXhdnHk/hqdefault.jpg" alt="LE SSERAFIM - DIFFERENT 影片封面" />
+        <div class="play-button"></div>
+      </div>
+      <h3>LE SSERAFIM - DIFFERENT</h3>
+      <p>一首展現力量與優雅平衡的韓式動感之作。</p>
+    </div>
+
+    <h2>🎸 西洋推薦</h2>
+    <div class="song-card">
+      <div class="video-wrapper" data-video-id="cTHp4NBDpis" onclick="loadVideo(this)">
+        <img src="https://img.youtube.com/vi/cTHp4NBDpis/hqdefault.jpg" alt="SARA KAYS - PICTURE OF YOU 影片封面" />
+        <div class="play-button"></div>
+      </div>
+      <h3>SARA KAYS - PICTURE OF YOU</h3>
+      <p>淡淡的旋律藏著深刻的情感，一聽就心碎。</p>
+    </div>
+
+    <h2>🈶 華語推薦</h2>
+    <div class="song-card">
+      <div class="video-wrapper" data-video-id="M_Pr2HDv2e0" onclick="loadVideo(this)">
+        <img src="https://img.youtube.com/vi/M_Pr2HDv2e0/hqdefault.jpg" alt="承桓 - 總會有人 影片封面" />
+        <div class="play-button"></div>
+      </div>
+      <h3>承桓 - 總會有人</h3>
+      <p>暖心的詞曲，為正在等待的人帶來一絲希望。</p>
+    </div>
+
+    <h2>🎧 電音推薦</h2>
+    <div class="song-card">
+      <div class="video-wrapper" data-video-id="aDEShMiBxHI" onclick="loadVideo(this)">
+        <img src="https://img.youtube.com/vi/aDEShMiBxHI/hqdefault.jpg" alt="Le Castle Vania - Minus Eleven 影片封面" />
+        <div class="play-button"></div>
+      </div>
+      <h3>Le Castle Vania - Minus Eleven</h3>
+      <p>來自《John Wick》原聲，冷冽而精準的節奏感，讓心跳隨之律動。</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>🕰️ 歷史歌曲紀錄</h2>
+    <details open>
+      <summary>🎸 西洋歌曲</summary>
+      <ul class="song-history">
+        <li>SARA KAYS - PICTURE OF YOU（美國）</li>
+      </ul>
+    </details>
+    <details>
+      <summary>🎶 日韓歌曲</summary>
+      <ul class="song-history">
+        <li>LE SSERAFIM - DIFFERENT（韓國）</li>
+      </ul>
+    </details>
+    <details>
+      <summary>🈶 華語歌曲</summary>
+      <ul class="song-history">
+        <li>承桓 - 總會有人（台灣）</li>
+      </ul>
+    </details>
+    <details>
+      <summary>🎧 電音歌曲</summary>
+      <ul class="song-history">
+        <li>Le Castle Vania - Minus Eleven（電影音樂）</li>
+      </ul>
+    </details>
   </section>
 
   <section class="contact">
     <h3>📬 聯絡我</h3>
-    <p>IG: <a href="https://www.instagram.com/h.p.m_0.9.2.3/" target="_blank" rel="noopener noreferrer">@h.p.m_0.9.2.3</a></p>
+    <p>IG: <a href="https://www.instagram.com/h.p.m_0.9.2.3/" target="_blank">@h.p.m_0.9.2.3</a></p>
     <p>LINE ID：angel5628</p>
   </section>
 
-  <!-- Disqus 留言系統 -->
-  <div id="disqus_thread" style="background-color: #fff; padding: 2rem;"></div>
+  <footer>
+    <p>© 2025 可愛的小Q音樂推薦站. 版權所有，未經授權請勿轉載、抄襲或商業使用。</p>
+    <p>本網站內容受著作權法保護，違者必究。</p>
+    <p>本網站部分內容依 <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh_TW" target="_blank" style="color: #ccc;">創用 CC BY-NC-ND 4.0 授權條款</a>釋出。</p>
+  </footer>
 
+  <div id="disqus_thread" style="background-color: #fff; padding: 2rem;"></div>
   <script>
     var disqus_config = function () {
       this.page.url = window.location.href;
@@ -119,96 +208,6 @@
       (d.head || d.body).appendChild(s);
     })();
 
-    // JSON格式的音樂歌單資料
-    const musicData = [
-      {
-        category: "🎶 日韓推薦",
-        songs: [
-          {
-            videoId: "HFZUAXhdnHk",
-            title: "LE SSERAFIM - DIFFERENT",
-            description: "一首展現力量與優雅平衡的韓式動感之作。"
-          }
-        ]
-      },
-      {
-        category: "🎸 西洋推薦",
-        songs: [
-          {
-            videoId: "cTHp4NBDpis",
-            title: "SARA KAYS - PICTURE OF YOU",
-            description: "淡淡的旋律藏著深刻的情感，一聽就心碎。"
-          }
-        ]
-      },
-      {
-        category: "🈶 華語推薦",
-        songs: [
-          {
-            videoId: "M_Pr2HDv2e0",
-            title: "承桓 - 總會有人",
-            description: "暖心的詞曲，為正在等待的人帶來一絲希望。"
-          }
-        ]
-      },
-      {
-        category: "🎧 電音推薦",
-        songs: [
-          {
-            videoId: "aDEShMiBxHI",
-            title: "Le Castle Vania - Minus Eleven",
-            description: "來自《John Wick》原聲，冷冽而精準的節奏感，讓心跳隨之律動。"
-          }
-        ]
-      }
-    ];
-
-    // 取得放置歌單的容器
-    const musicSection = document.getElementById('music-section');
-
-    // 動態產生歌單HTML
-    function renderMusicList() {
-      musicData.forEach(category => {
-        const categoryTitle = document.createElement('h2');
-        categoryTitle.textContent = category.category;
-        musicSection.appendChild(categoryTitle);
-
-        category.songs.forEach(song => {
-          const card = document.createElement('div');
-          card.className = 'song-card';
-
-          const videoWrapper = document.createElement('div');
-          videoWrapper.className = 'video-wrapper';
-          videoWrapper.setAttribute('data-video-id', song.videoId);
-          videoWrapper.onclick = function() { loadVideo(this); };
-
-          const img = document.createElement('img');
-          img.src = `https://img.youtube.com/vi/${song.videoId}/maxresdefault.jpg`;
-          img.alt = `${song.title} 影片封面`;
-          img.onerror = function() { handleImgError(this, song.videoId); };
-
-          const playBtn = document.createElement('div');
-          playBtn.className = 'play-button';
-
-          videoWrapper.appendChild(img);
-          videoWrapper.appendChild(playBtn);
-          card.appendChild(videoWrapper);
-
-          const h3 = document.createElement('h3');
-          h3.textContent = song.title;
-          card.appendChild(h3);
-
-          const pDesc = document.createElement('p');
-          pDesc.textContent = song.description;
-          card.appendChild(pDesc);
-
-          musicSection.appendChild(card);
-        });
-      });
-    }
-
-    renderMusicList();
-
     function loadVideo(element) {
       const videoId = element.getAttribute('data-video-id');
       const iframe = document.createElement('iframe');
@@ -218,18 +217,39 @@
       iframe.style.width = '100%';
       iframe.style.height = '315px';
       iframe.style.borderRadius = '8px';
-
       element.parentNode.replaceChild(iframe, element);
     }
+  </script>
 
-    function handleImgError(imgElement, videoId) {
-      if (imgElement.src.includes('maxresdefault.jpg')) {
-        imgElement.src = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
-      } else {
-        imgElement.onerror = null;
-      }
+  <script type="application/json" id="songData">
+    {
+      "songs": [
+        {
+          "title": "LE SSERAFIM - DIFFERENT",
+          "category": "日韓推薦",
+          "videoId": "HFZUAXhdnHk",
+          "description": "一首展現力量與優雅平衡的韓式動感之作"
+        },
+        {
+          "title": "SARA KAYS - PICTURE OF YOU",
+          "category": "西洋推薦",
+          "videoId": "cTHp4NBDpis",
+          "description": "淡淡的旋律藏著深刻的情感，一聽就心碎"
+        },
+        {
+          "title": "承桓 - 總會有人",
+          "category": "華語推薦",
+          "videoId": "M_Pr2HDv2e0",
+          "description": "暖心的詞曲，為正在等待的人帶來一絲希望"
+        },
+        {
+          "title": "Le Castle Vania - Minus Eleven",
+          "category": "電音推薦",
+          "videoId": "aDEShMiBxHI",
+          "description": "來自《John Wick》原聲，冷冽而精準的節奏感，讓心跳隨之律動"
+        }
+      ]
     }
   </script>
-  <noscript>請啟用 JavaScript 查看留言功能。</noscript>
 </body>
 </html>
