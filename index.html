@@ -4,11 +4,19 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>音樂推薦站 - 可愛的小Q</title>
+  <!-- 新增：英文字體 可愛清晰 Comic Neue -->
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+  <!-- 新增：中文字體 藝術可讀 Noto Serif TC -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(to bottom, #000000, #ffffff);
+      font-family: 'Noto Serif TC', 'Comic Neue', sans-serif;
+      background:
+        url('https://www.transparenttextures.com/patterns/hearts.png'),
+        linear-gradient(to bottom, #000000, #ffffff);
+      background-repeat: repeat;
+      background-size: auto, cover;
       color: #fff;
     }
     header {
@@ -22,6 +30,20 @@
     p.subtitle {
       font-size: 1.2rem;
       color: #ccc;
+    }
+    /* 搜尋欄 */
+    #searchBox {
+      display: block;
+      width: 100%;
+      max-width: 400px;
+      margin: 0 auto 2rem;
+      padding: 0.6rem 1rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 8px;
+      background: rgba(255,255,255,0.8);
+      color: #333;
+      font-family: 'Segoe UI', sans-serif;
     }
     section {
       padding: 2rem;
@@ -102,7 +124,7 @@
     ul.song-history li {
       cursor: pointer;
       margin-bottom: 0.5rem;
-      color: #eee; /* 非超連結藍色，純文字色 */
+      color: #eee;
       display: flex;
       align-items: center;
     }
@@ -110,7 +132,6 @@
       color: #ddd;
       text-decoration: underline;
     }
-    /* 創用CC圖示大小改為跟字體同高 */
     footer img {
       height: 1em;
       vertical-align: middle;
@@ -123,6 +144,9 @@
       .video-wrapper {
         max-width: 100%;
       }
+      #searchBox {
+        max-width: 90%;
+      }
     }
   </style>
 </head>
@@ -132,52 +156,59 @@
     <p class="subtitle">Connecting hearts through music, making every day a melody that's uniquely yours.</p>
   </header>
 
+  <!-- 搜尋欄 -->
+  <section>
+    <input type="text" id="searchBox" placeholder="🔍 輸入歌名或描述搜尋..." oninput="filterCards()" />
+  </section>
+
   <section>
     <h2>🎶 日韓推薦</h2>
+  
     <div class="song-card">
-      <div class="video-wrapper" data-video-id="HFZUAXhdnHk" onclick="loadVideo(this)">
-        <img src="https://img.youtube.com/vi/HFZUAXhdnHk/hqdefault.jpg" alt="LE SSERAFIM - DIFFERENT 影片封面" />
+      <div class="video-wrapper" data-video-id="WKgd8GsyHAY" onclick="loadVideo(this)">
+        <img src="https://img.youtube.com/vi/WKgd8GsyHAY/hqdefault.jpg" alt="キミノオルフェ - FAKE=REAL [MV] 影片封面"/>
         <div class="play-button"></div>
       </div>
-      <h3>LE SSERAFIM - DIFFERENT</h3>
-      <p>一首展現力量與優雅平衡的韓式動感之作。</p>
+      <h3>キミノオルフェ - FAKE=REAL [MV]</h3>
+      <p>充滿日韓特色的動人旋律，帶來夢幻般的聽覺享受。</p>
     </div>
 
     <h2>🎸 西洋推薦</h2>
+  
     <div class="song-card">
-      <div class="video-wrapper" data-video-id="cTHp4NBDpis" onclick="loadVideo(this)">
-        <img src="https://img.youtube.com/vi/cTHp4NBDpis/hqdefault.jpg" alt="SARA KAYS - PICTURE OF YOU 影片封面" />
+      <div class="video-wrapper" data-video-id="ZXASwXBtQ3Y" onclick="loadVideo(this)">
+        <img src="https://img.youtube.com/vi/ZXASwXBtQ3Y/hqdefault.jpg" alt="Fly By Midnight - Less In Love 影片封面"/>
         <div class="play-button"></div>
       </div>
-      <h3>SARA KAYS - PICTURE OF YOU</h3>
-      <p>淡淡的旋律藏著深刻的情感，一聽就心碎。</p>
+      <h3>Fly By Midnight - Less In Love</h3>
+      <p>流暢的旋律搭配深情歌詞，帶你感受愛的深度。</p>
     </div>
 
     <h2>🈶 華語推薦</h2>
+    
     <div class="song-card">
-      <div class="video-wrapper" data-video-id="M_Pr2HDv2e0" onclick="loadVideo(this)">
-        <img src="https://img.youtube.com/vi/M_Pr2HDv2e0/hqdefault.jpg" alt="承桓 - 總會有人 影片封面" />
+      <div class="video-wrapper" data-video-id="529nuSdq0T4" onclick="loadVideo(this)">
+        <img src="https://img.youtube.com/vi/529nuSdq0T4/hqdefault.jpg" alt="派偉俊 Patrick Brasca 【最後一次心碎 Heartbreak】 影片封面"/>
         <div class="play-button"></div>
       </div>
-      <h3>承桓 - 總會有人</h3>
-      <p>暖心的詞曲，為正在等待的人帶來一絲希望。</p>
+      <h3>派偉俊 Patrick Brasca 【最後一次心碎 Heartbreak】</h3>
+      <p>深刻的情感詮釋與心碎旋律，直擊靈魂深處。</p>
     </div>
 
     <h2>🎧 電音推薦</h2>
+    
     <div class="song-card">
-      <div class="video-wrapper" data-video-id="aDEShMiBxHI" onclick="loadVideo(this)">
-        <img src="https://img.youtube.com/vi/aDEShMiBxHI/hqdefault.jpg" alt="Le Castle Vania - Minus Eleven 影片封面" />
+      <div class="video-wrapper" data-video-id="15xh6MLQ49I" onclick="loadVideo(this)">
+        <img src="https://img.youtube.com/vi/15xh6MLQ49I/hqdefault.jpg" alt="PLACE IN MY MIND 影片封面"/>
         <div class="play-button"></div>
       </div>
-      <h3>Le Castle Vania - Minus Eleven</h3>
-      <p>來自《John Wick》原聲，冷冽而精準的節奏感，讓心跳隨之律動。</p>
+      <h3>PLACE IN MY MIND</h3>
+      <p>節奏明快且具有感染力的電音曲風，帶來無限動感活力。</p>
     </div>
   </section>
 
   <section>
     <h2>🕰️ 歷史歌曲紀錄</h2>
-
-    <!-- 動態產生歷史紀錄列表 -->
     <details open>
       <summary>🎸 西洋歌曲</summary>
       <ul class="song-history" id="history-western"></ul>
@@ -202,20 +233,20 @@
     <p>LINE ID：angel5628</p>
   </section>
 
-<footer>
-  <p>© 2025 可愛的小Q音樂推薦站. 版權所有，未經授權請勿轉載、抄襲或商業使用。</p>
-  <p>本網站內容受著作權法保護，違者必究。</p>
-  <p>
-    本網站部分內容依 
-    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh_TW" target="_blank" style="color: #ccc;">
-      創用 CC BY-NC-ND 4.0 授權條款
-    </a>
-    釋出：
-    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">
-      <img src="https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png" alt="創用CC授權圖示" />
-    </a>
-  </p>
-</footer>
+  <footer>
+    <p>© 2025 可愛的小Q音樂推薦站. 版權所有，未經授權請勿轉載、抄襲或商業使用。</p>
+    <p>本網站內容受著作權法保護，違者必究。</p>
+    <p>
+      本網站部分內容依
+      <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh_TW" target="_blank" style="color: #ccc;">
+        創用 CC BY-NC-ND 4.0 授權條款
+      </a>
+      釋出：
+      <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">
+        <img src="https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png" alt="創用CC授權圖示"/>
+      </a>
+    </p>
+  </footer>
 
   <div id="disqus_thread" style="background-color: #fff; padding: 2rem;"></div>
   <script>
@@ -242,7 +273,15 @@
       element.parentNode.replaceChild(iframe, element);
     }
 
-    // 歷史紀錄資料（參考 songData 內的資料）
+    function filterCards() {
+      const kw = document.getElementById('searchBox').value.toLowerCase();
+      document.querySelectorAll('.song-card').forEach(card => {
+        const txt = card.textContent.toLowerCase();
+        card.style.display = txt.includes(kw) ? '' : 'none';
+      });
+    }
+
+    // 歷史歌曲資料 (包含新歌)
     const songData = {
       "songs": [
         {
@@ -252,10 +291,22 @@
           "description": "一首展現力量與優雅平衡的韓式動感之作"
         },
         {
+          "title": "キミノオルフェ - FAKE=REAL [MV]",
+          "category": "日韓推薦",
+          "videoId": "WKgd8GsyHAY",
+          "description": "充滿日韓特色的動人旋律，帶來夢幻般的聽覺享受"
+        },
+        {
           "title": "SARA KAYS - PICTURE OF YOU",
           "category": "西洋推薦",
           "videoId": "cTHp4NBDpis",
           "description": "淡淡的旋律藏著深刻的情感，一聽就心碎"
+        },
+        {
+          "title": "Fly By Midnight - Less In Love",
+          "category": "西洋推薦",
+          "videoId": "ZXASwXBtQ3Y",
+          "description": "流暢的旋律搭配深情歌詞，帶你感受愛的深度"
         },
         {
           "title": "承桓 - 總會有人",
@@ -264,15 +315,26 @@
           "description": "暖心的詞曲，為正在等待的人帶來一絲希望"
         },
         {
+          "title": "派偉俊 Patrick Brasca 【最後一次心碎 Heartbreak】",
+          "category": "華語推薦",
+          "videoId": "529nuSdq0T4",
+          "description": "深刻的情感詮釋與心碎旋律，直擊靈魂深處"
+        },
+        {
           "title": "Le Castle Vania - Minus Eleven",
           "category": "電音推薦",
           "videoId": "aDEShMiBxHI",
           "description": "來自《John Wick》原聲，冷冽而精準的節奏感，讓心跳隨之律動"
+        },
+        {
+          "title": "PLACE IN MY MIND",
+          "category": "電音推薦",
+          "videoId": "15xh6MLQ49I",
+          "description": "節奏明快且具有感染力的電音曲風，帶來無限動感活力"
         }
       ]
     };
 
-    // 依類別分類並生成歷史歌曲列表
     function generateHistoryList() {
       const mapping = {
         "西洋推薦": "history-western",
@@ -280,95 +342,42 @@
         "華語推薦": "history-chinese",
         "電音推薦": "history-electronic"
       };
-
+      // 清空現有列表，避免重複
+      for (const key in mapping) {
+        document.getElementById(mapping[key]).innerHTML = '';
+      }
       for (const song of songData.songs) {
-        const ulId = mapping[song.category];
-        if (!ulId) continue;
-        const ul = document.getElementById(ulId);
-
+        const ul = document.getElementById(mapping[song.category]);
         const li = document.createElement('li');
-        // 加封面圖
         const thumb = document.createElement('img');
         thumb.src = `https://img.youtube.com/vi/${song.videoId}/hqdefault.jpg`;
         thumb.alt = `${song.title} 影片封面`;
         thumb.style.width = '40px';
-        thumb.style.height = 'auto';
-        thumb.style.borderRadius = '4px';
         thumb.style.marginRight = '10px';
+        thumb.style.borderRadius = '4px';        
         li.appendChild(thumb);
-
-        // 加歌名與括號地區字
         const text = document.createElement('span');
-        // 解析地區（用括號內文字）
-        const regionMatch = song.description.match(/（([^）]+)）/);
-        // 因為原描述沒有括號，改用後面括號字串判斷
-        // 這邊因為原本category是中文推薦類別，顯示括號可自訂
-        // 你可依需求自行調整
-        let regionText = "";
-        switch(song.category){
-          case "西洋推薦": regionText = "（美國）"; break;
-          case "日韓推薦": regionText = "（韓國）"; break;
-          case "華語推薦": regionText = "（中國）"; break;
-          case "電音推薦": regionText = "（電音）"; break;
-          default: regionText = "";
-        }
-        text.textContent = `${song.title}${regionText}`;
+        text.textContent = song.title;
         li.appendChild(text);
-
-        // 點擊播放影片
         li.onclick = function() {
-          // 清空ul裡所有li，改成iframe
           const parentUl = this.parentNode;
-          parentUl.innerHTML = ""; // 清空
+          const existingIframe = parentUl.querySelector('iframe');
+          if (existingIframe) {
+            existingIframe.remove();
+          }
           const iframe = document.createElement('iframe');
-          iframe.setAttribute('src', 'https://www.youtube.com/embed/' + song.videoId + '?autoplay=1');
-          iframe.setAttribute('frameborder', '0');
-          iframe.setAttribute('allowfullscreen', '');
-          iframe.style.width = '100%';
-          iframe.style.height = '315px';
-          iframe.style.borderRadius = '8px';
-          parentUl.appendChild(iframe);
+          iframe.src = 'https://www.youtube.com/embed/' + song.videoId + '?autoplay=1';
+          iframe.width = '300';
+          iframe.height = '169';
+          iframe.frameBorder = '0';
+          iframe.allowFullscreen = true;
+          iframe.style.marginTop = '0.5rem';
+          this.appendChild(iframe);
         };
-
         ul.appendChild(li);
       }
     }
-
-    window.onload = function() {
-      generateHistoryList();
-    }
-  </script>
-
-  <script type="application/json" id="songData">
-    {
-      "songs": [
-        {
-          "title": "LE SSERAFIM - DIFFERENT",
-          "category": "日韓推薦",
-          "videoId": "HFZUAXhdnHk",
-          "description": "一首展現力量與優雅平衡的韓式動感之作"
-        },
-        {
-          "title": "SARA KAYS - PICTURE OF YOU",
-          "category": "西洋推薦",
-          "videoId": "cTHp4NBDpis",
-          "description": "淡淡的旋律藏著深刻的情感，一聽就心碎"
-        },
-        {
-          "title": "承桓 - 總會有人",
-          "category": "華語推薦",
-          "videoId": "M_Pr2HDv2e0",
-          "description": "暖心的詞曲，為正在等待的人帶來一絲希望"
-        },
-        {
-          "title": "Le Castle Vania - Minus Eleven",
-          "category": "電音推薦",
-          "videoId": "aDEShMiBxHI",
-          "description": "來自《John Wick》原聲，冷冽而精準的節奏感，讓心跳隨之律動"
-        }
-      ]
-    }
+    generateHistoryList();
   </script>
 </body>
 </html>
-
