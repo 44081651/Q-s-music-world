@@ -132,6 +132,12 @@
     "videoId": "PjeJNsOdm04",
     "description": "強烈節奏與堅定歌詞，唱出忠誠與自信的姿態。"
   },
+   {
+    "title": "茉ひる - ハナタバ",
+    "category": "日韓推薦",
+    "videoId": "oKn-qRgMJRM",
+    "description": "簡單而深刻的旋律，表達了純粹的愛與祝福。"
+  },
     {
       "title": "Tate McRae - It's ok I'm ok",
       "category": "西洋推薦",
@@ -263,6 +269,12 @@
     "category": "西洋推薦",
     "videoId": "VPRjCeoBqrI",
     "description": "電音與浪漫交織的星空之歌，讓人心情飛揚。"
+  },
+   {
+    "title": "TXT , Jonas Brothers - Do It Like That",
+    "category": "西洋推薦",
+    "videoId": "C0EYKxF1oTI",
+    "description": "動感的節奏，融合K-pop與美式流行，展現強烈的合作火花。"
   },
     {
       "title": "陳華 【這麼多年】",
@@ -397,6 +409,12 @@
     "description": "柔和嗓音訴說著時間留下的愛與遺憾。"
   },
     {
+    "title": "緊急呼救 - 王晴",
+    "category": "華語推薦",
+    "videoId": "QRebo60H1Ys",
+    "description": "憂傷的歌詞和深情的演繹，觸動人心的求救呼聲。"
+  },
+    {
       "title": "Tiësto & Ava Max - The Motto [DEAF - Remix]",
       "category": "電音推薦",
       "videoId": "ZuoxbR7SCtI",
@@ -527,6 +545,12 @@
     "category": "電音推薦",
     "videoId": "SRToDMEpSs0",
     "description": "在混亂中尋找出口，情緒濃烈的自我傾訴。"
+  },
+   {
+    "title": "William Black - Deep Blue ft. Monika Santucci",
+    "category": "電音推薦",
+    "videoId": "7i0gz1sVs4w",
+    "description": "帶有悲傷感的電子音樂，營造出深邃而迷人的氛圍。"
   }
   ]
 }
