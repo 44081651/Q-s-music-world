@@ -138,6 +138,12 @@
     "videoId": "oKn-qRgMJRM",
     "description": "簡單而深刻的旋律，表達了純粹的愛與祝福。"
   },
+   {
+    "title": "ロクデナシ - 「心の奥」",
+    "category": "日韓推薦",
+    "videoId": "JQjnJ8ZAjzI",
+    "description": "旋律細膩，唱出內心深處難以言說的情感。"
+  },
     {
       "title": "Tate McRae - It's ok I'm ok",
       "category": "西洋推薦",
@@ -275,6 +281,12 @@
     "category": "西洋推薦",
     "videoId": "C0EYKxF1oTI",
     "description": "動感的節奏，融合K-pop與美式流行，展現強烈的合作火花。"
+  },
+   {
+    "title": "EMIN feat. JONY - Камин",
+    "category": "西洋推薦",
+    "videoId": "6SEr1XcZG4M",
+    "description": "異國情調的旋律，編織出如火般溫暖的情歌。"
   },
     {
       "title": "陳華 【這麼多年】",
@@ -414,6 +426,12 @@
     "videoId": "QRebo60H1Ys",
     "description": "憂傷的歌詞和深情的演繹，觸動人心的求救呼聲。"
   },
+  {
+    "title": "小樂 吳思賢 Ben Wu x 派偉俊 Patrick Brasca《Chasing Dreams》",
+    "category": "華語推薦",
+    "videoId": "vls7lHsOaf0",
+    "description": "充滿希望的旋律，傳遞勇敢追夢的信念。"
+  },
     {
       "title": "Tiësto & Ava Max - The Motto [DEAF - Remix]",
       "category": "電音推薦",
@@ -551,6 +569,12 @@
     "category": "電音推薦",
     "videoId": "7i0gz1sVs4w",
     "description": "帶有悲傷感的電子音樂，營造出深邃而迷人的氛圍。"
+  },
+   {
+    "title": "Lvly - Dance",
+    "category": "電音推薦",
+    "videoId": "t3WrWp_C7DI",
+    "description": "節奏輕快，讓人忍不住隨音樂起舞。"
   }
   ]
 }
