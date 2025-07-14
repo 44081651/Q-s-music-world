@@ -138,6 +138,12 @@
     "videoId": "oKn-qRgMJRM",
     "description": "簡單而深刻的旋律，表達了純粹的愛與祝福。"
   },
+    {
+    "title": "j-hope - Killin' It Girl",
+    "category": "日韓推薦",
+    "videoId": "HK3LjI2InOg",
+    "description": "節奏鮮明，展現j-hope自由率性的音樂風格。"
+  },
    {
     "title": "ロクデナシ - 「心の奥」",
     "category": "日韓推薦",
@@ -288,6 +294,12 @@
     "videoId": "6SEr1XcZG4M",
     "description": "異國情調的旋律，編織出如火般溫暖的情歌。"
   },
+  {
+    "title": "John Drolet - Who I Am in You",
+    "category": "西洋推薦",
+    "videoId": "WodZQ1broS8",
+    "description": "柔和靈魂風格，傳遞深層內心與信仰的連結。"
+  },
     {
       "title": "陳華 【這麼多年】",
       "category": "華語推薦",
@@ -433,6 +445,12 @@
     "description": "充滿希望的旋律，傳遞勇敢追夢的信念。"
   },
     {
+    "title": "承桓 - 彌留之際",
+    "category": "華語推薦",
+    "videoId": "S9vpHlNvIcs",
+    "description": "旋律低迴，描繪人生終章的哀傷與省思。"
+  },
+    {
       "title": "Tiësto & Ava Max - The Motto [DEAF - Remix]",
       "category": "電音推薦",
       "videoId": "ZuoxbR7SCtI",
@@ -575,6 +593,12 @@
     "category": "電音推薦",
     "videoId": "t3WrWp_C7DI",
     "description": "節奏輕快，讓人忍不住隨音樂起舞。"
+  },
+    {
+    "title": "Calvin Harris - Blessings",
+    "category": "電音推薦",
+    "videoId": "_okjhzBpdU0",
+    "description": "融合電子與嘻哈元素，節奏感強烈又富層次。"
   }
   ]
 }
