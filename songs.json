@@ -150,6 +150,30 @@
     "videoId": "JQjnJ8ZAjzI",
     "description": "旋律細膩，唱出內心深處難以言說的情感。"
   },
+  {
+    "title": "ATEEZ - Lemon Drop",
+    "category": "日韓推薦",
+    "videoId": "H4H99b1CjPU",
+    "description": "酸中帶甜的節奏感，充滿活力與夏日氣息的K-POP佳作。"
+  },
+  {
+    "title": "MEOVV - HANDS UP",
+    "category": "日韓推薦",
+    "videoId": "sL0pCS6K9bc",
+    "description": "動感強烈、充滿活力的節拍，讓人忍不住跟著搖擺。"
+  },
+  {
+    "title": "TWICE - THIS IS FOR",
+    "category": "日韓推薦",
+    "videoId": "eHHQaoEW30Q",
+    "description": "甜美與堅強兼具，傳遞希望與力量的流行佳作。"
+  },
+  {
+    "title": "LE SSERAFIM - Kawaii (Prod. Gen Hoshino)",
+    "category": "日韓推薦",
+    "videoId": "DY4ckIx94xw",
+    "description": "日系可愛風與未來感製作完美結合，萌點滿滿。"
+  },
     {
       "title": "Tate McRae - It's ok I'm ok",
       "category": "西洋推薦",
@@ -300,6 +324,30 @@
     "videoId": "WodZQ1broS8",
     "description": "柔和靈魂風格，傳遞深層內心與信仰的連結。"
   },
+   {
+    "title": "Don Toliver - Lose My Mind (feat. Doja Cat)",
+    "category": "西洋推薦",
+    "videoId": "WWEs82u37Mw",
+    "description": "迷幻節奏與R&B旋律交織，營造出濃厚的都市夜色氛圍。"
+  },
+  {
+    "title": "Burna Boy - Don't Let Me Drown",
+    "category": "西洋推薦",
+    "videoId": "h35Nhha7qQI",
+    "description": "融合非洲節奏與靈魂唱腔，真摯情感躍然於旋律之中。"
+  },
+  {
+    "title": "Ed Sheeran - Drive",
+    "category": "西洋推薦",
+    "videoId": "Cf1hKtrA9lg",
+    "description": "溫柔木吉他聲線搭配細膩情感，駕馭情緒的旅程之歌。"
+  },
+  {
+    "title": "Tate McRae - Just Keep Watching",
+    "category": "西洋推薦",
+    "videoId": "dpvQqmX6SUI",
+    "description": "情緒堆疊的流行旋律，訴說成長與觀察的內心掙扎。"
+  },
     {
       "title": "陳華 【這麼多年】",
       "category": "華語推薦",
@@ -449,6 +497,30 @@
     "category": "華語推薦",
     "videoId": "S9vpHlNvIcs",
     "description": "旋律低迴，描繪人生終章的哀傷與省思。"
+  }, 
+    {
+    "title": "陳小滿 - 那你呢",
+    "category": "華語推薦",
+    "videoId": "Bj9hOrfU0Jc",
+    "description": "輕聲訴說內心的留戀與疑問，溫柔地敲進心房。"
+  },
+  {
+    "title": "張齊山ZQS - 有人像你三分",
+    "category": "華語推薦",
+    "videoId": "fKYXldyHcxI",
+    "description": "像你又不像你，這首歌唱的是遺憾與模糊的思念。"
+  },
+  {
+    "title": "en - 其實都沒有",
+    "category": "華語推薦",
+    "videoId": "hd-ukiynXts",
+    "description": "低語般的演唱方式，像是一封從未寄出的告白信。"
+  },
+  {
+    "title": "趙乃吉 - 從我們到你們",
+    "category": "華語推薦",
+    "videoId": "ZWoQilSLyD4",
+    "description": "從過去延伸到未來的回憶軌跡，唱出世代的連結與心聲。"
   },
     {
       "title": "Tiësto & Ava Max - The Motto [DEAF - Remix]",
@@ -599,6 +671,30 @@
     "category": "電音推薦",
     "videoId": "_okjhzBpdU0",
     "description": "融合電子與嘻哈元素，節奏感強烈又富層次。"
+  },
+   {
+    "title": "Billen Ted - When You're Out ft. Mae Muller",
+    "category": "電音推薦",
+    "videoId": "hz-1yfFERbI",
+    "description": "輕快節奏與動人嗓音，適合開車時一聽再聽。"
+  },
+  {
+    "title": "Alan Walker - Lifeline",
+    "category": "電音推薦",
+    "videoId": "Q2uXL6NoPtc",
+    "description": "迷人電音編曲，穿越黑暗的希望主題。"
+  },
+  {
+    "title": "Mabel - Don't Call Me Up",
+    "category": "電音推薦",
+    "videoId": "9TQKyDD9Yig",
+    "description": "獨立女子的宣言，節奏俐落、氣場全開。"
+  },
+  {
+    "title": "Mia Kirkland x Skepsis - Right Now",
+    "category": "電音推薦",
+    "videoId": "REq_SDSWO8U",
+    "description": "電音與低音混搭，適合派對狂歡與夜晚奔放時刻。"
   }
   ]
 }
