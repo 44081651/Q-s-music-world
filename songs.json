@@ -180,6 +180,12 @@
     "videoId": "-933w0ncNsM",
     "description": "夢幻節奏搭配星光閃耀的演出，描繪永恆的青春與熱血。"
   },
+  {
+    "title": "JENNIE - with the IE",
+    "category": "日韓推薦",
+    "videoId": "qzE9tNcUUss",
+    "description": "冷峻又前衛的節奏，JENNIE 將時尚美學與聲音完美融合。"
+  },
     {
       "title": "Tate McRae - It's ok I'm ok",
       "category": "西洋推薦",
@@ -359,6 +365,12 @@
     "category": "西洋推薦",
     "videoId": "Bl_aQ6HlrQI",
     "description": "在月光下的呢喃低語，輕柔旋律如夢般勾起夜色思念。"
+  },
+  {
+    "title": "Ethan Dufault - Casualties",
+    "category": "西洋推薦",
+    "videoId": "NCIKMBAPcFA",
+    "description": "低迴嗓音與心碎歌詞交錯出一場關於失去的私語旅程。"
   },
     {
       "title": "陳華 【這麼多年】",
@@ -540,6 +552,12 @@
     "videoId": "_ga89BDNadw",
     "description": "柔美的旋律彷彿浮雲綻放，是夢想與希望的詩意寫照。"
   },
+  {
+    "title": "石丸 - 最狠的話",
+    "category": "華語推薦",
+    "videoId": "MX5WdCQ3qLg",
+    "description": "語氣雖狠卻深情難掩，在黑與愛之間刻下銘心的分離。"
+  },
     {
       "title": "Tiësto & Ava Max - The Motto [DEAF - Remix]",
       "category": "電音推薦",
@@ -713,6 +731,12 @@
     "category": "電音推薦",
     "videoId": "REq_SDSWO8U",
     "description": "電音與低音混搭，適合派對狂歡與夜晚奔放時刻。"
+  },
+   {
+    "title": "R3HAB - Jet Plane",
+    "category": "電音推薦",
+    "videoId": "SfQyEaUrvoI",
+    "description": "節拍如噴射機般衝刺，R3HAB 用電子節奏勾勒高空自由感。"
   }
   ]
 }
