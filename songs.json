@@ -187,6 +187,18 @@
     "description": "冷峻又前衛的節奏，JENNIE 將時尚美學與聲音完美融合。"
   },
     {
+    "title": "FantasticYouth - 雲外憧憬",
+    "category": "日韓推薦",
+    "videoId": "MjgywZJvCog",
+    "description": "充滿幻想的編曲，讓人彷彿穿越雲端去追逐夢想。"
+  },
+  {
+    "title": "eill - 20",
+    "category": "日韓推薦",
+    "videoId": "sZDMvAPYQuk",
+    "description": "青春氣息十足，用節奏描繪二十歲的煩惱與渴望。"
+  },
+    {
       "title": "Tate McRae - It's ok I'm ok",
       "category": "西洋推薦",
       "videoId": "Bpaf6Dm9iRc",
@@ -371,6 +383,18 @@
     "category": "西洋推薦",
     "videoId": "NCIKMBAPcFA",
     "description": "低迴嗓音與心碎歌詞交錯出一場關於失去的私語旅程。"
+  },
+  {
+    "title": "Pascal Letoublon, ILIRA - Time After Time",
+    "category": "西洋推薦",
+    "videoId": "Plm-Opu3ZV8",
+    "description": "復古旋律揉合現代節拍，時間流轉中的愛戀旋律。"
+  },
+  {
+    "title": "Cheat Codes - Don't Leave",
+    "category": "西洋推薦",
+    "videoId": "chasHj6aP_8",
+    "description": "電子節拍交織溫柔唱腔，唱出不捨與拉扯的心情。"
   },
     {
       "title": "陳華 【這麼多年】",
@@ -558,6 +582,18 @@
     "videoId": "MX5WdCQ3qLg",
     "description": "語氣雖狠卻深情難掩，在黑與愛之間刻下銘心的分離。"
   },
+  {
+    "title": "C.Y - 偷心賊",
+    "category": "華語推薦",
+    "videoId": "YTVbNUDvr3w",
+    "description": "輕柔旋律中帶著挑逗語氣，偷偷偷走你心的流行情歌。"
+  },
+  {
+    "title": "關詩敏 - 沒有我的以後",
+    "category": "華語推薦",
+    "videoId": "vTbk4a3MHrg",
+    "description": "抒情旋律講述離別後的遺憾，是一首深情又細膩的作品。"
+  },
     {
       "title": "Tiësto & Ava Max - The Motto [DEAF - Remix]",
       "category": "電音推薦",
@@ -737,6 +773,18 @@
     "category": "電音推薦",
     "videoId": "SfQyEaUrvoI",
     "description": "節拍如噴射機般衝刺，R3HAB 用電子節奏勾勒高空自由感。"
+  },
+    {
+    "title": "Alex LeMirage, FARLEY - BACK OF MY MIND",
+    "category": "電音推薦",
+    "videoId": "51QRHRQkYI0",
+    "description": "迷幻旋律中藏著內心低語，電音與情感的完美融合。"
+  },
+  {
+    "title": "Joel Corry x David Guetta x Bryson Tiller - What Would You Do?",
+    "category": "電音推薦",
+    "videoId": "j3pj8-uMF4U",
+    "description": "節奏強烈，搭配細膩人聲，讓派對氛圍瞬間點燃。"
   }
   ]
 }
