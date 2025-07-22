@@ -198,6 +198,21 @@
     "videoId": "sZDMvAPYQuk",
     "description": "青春氣息十足，用節奏描繪二十歲的煩惱與渴望。"
   },
+   {
+      "title": "ベリーグッドマン - 花よりも花を咲かせる土になれ",
+      "videoId": "ZBO9KhtXGmM",
+      "description": "溫柔旋律與勵志歌詞交織，傳遞默默付出的堅定力量。"
+    },
+    {
+      "title": "藤川千愛 - 尋夢",
+      "videoId": "0W16us5sFno",
+      "description": "輕柔歌聲如微風拂面，引領我們踏上尋夢旅程。"
+    },
+    {
+      "title": "AYANE - 星に願いを",
+      "videoId": "zdJYh8oDvuY",
+      "description": "如夢似幻的旋律下，寄託對未來的溫柔願望。"
+    },
     {
       "title": "Tate McRae - It's ok I'm ok",
       "category": "西洋推薦",
@@ -396,6 +411,21 @@
     "videoId": "chasHj6aP_8",
     "description": "電子節拍交織溫柔唱腔，唱出不捨與拉扯的心情。"
   },
+      {
+      "title": "Alan Walker, Daya - Heart over Mind",
+      "videoId": "3extEysZNa4",
+      "description": "迷幻節奏融合深情嗓音，心與理智之間的掙扎如畫面般浮現。"
+    },
+    {
+      "title": "J Balvin Ft. Anitta - Downtown",
+      "videoId": "ZzLw2tdF3F0",
+      "description": "拉丁律動與挑逗歌詞完美結合，性感與節奏感兼具的夜晚音樂。"
+    },
+    {
+      "title": "16 - six weeks",
+      "videoId": "WVc0m7THOb0",
+      "description": "充滿迷離與靜謐感，短短六週的情感在旋律中慢慢釋放。"
+    },
     {
       "title": "陳華 【這麼多年】",
       "category": "華語推薦",
@@ -595,6 +625,21 @@
     "description": "抒情旋律講述離別後的遺憾，是一首深情又細膩的作品。"
   },
     {
+      "title": "派偉俊 - We Are Young",
+      "videoId": "mB5ddDF-2po",
+      "description": "節奏歡快，充滿青春能量，喚醒年輕世代對夢想的渴望。"
+    },
+    {
+      "title": "夏偉淳LAH - 蔚藍色的海",
+      "videoId": "TqB5WhkPP38",
+      "description": "宛如大海般清澈寧靜，歌曲傳達無限思念與希望。"
+    },
+    {
+      "title": "任然 - 後繼者",
+      "videoId": "IPLRAbD-q9I",
+      "description": "深沉嗓音訴說著傳承與離別，情感綿密令人動容。"
+    },
+    {
       "title": "Tiësto & Ava Max - The Motto [DEAF - Remix]",
       "category": "電音推薦",
       "videoId": "ZuoxbR7SCtI",
@@ -785,6 +830,22 @@
     "category": "電音推薦",
     "videoId": "j3pj8-uMF4U",
     "description": "節奏強烈，搭配細膩人聲，讓派對氛圍瞬間點燃。"
-  }
+  },
+
+    {
+      "title": "Dj Regard - Ride It",
+      "videoId": "sf2s8US-Pfw",
+      "description": "迷幻節奏搭配流暢旋律，是派對夜晚的完美開場曲。"
+    },
+    {
+      "title": "NOTD, Mercer Henderson - WIFI",
+      "videoId": "KkIE3UjAzWk",
+      "description": "新潮又帶點俏皮的主題，WIFI 化身愛情連結的隱喻。"
+    },
+    {
+      "title": "MOGUAI, Keanu Silva, GRATIFY, K-391 - Getting Lost",
+      "videoId": "jrmLiozSdpA",
+      "description": "電音震撼力十足，節奏感與空靈感完美交錯，令人迷失在旋律中。"
+    }
   ]
 }
