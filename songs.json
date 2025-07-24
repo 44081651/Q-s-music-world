@@ -213,6 +213,12 @@
       "videoId": "zdJYh8oDvuY",
       "description": "如夢似幻的旋律下，寄託對未來的溫柔願望。"
     },
+     {
+    "title": "BLACKPINK - JUMP",
+    "category": "日韓推薦",
+    "videoId": "CgCVZdcKcqY",
+    "description": "強勁節奏與態度展現，BLACKPINK 再次跳出極致帥氣的魅力。"
+  },
     {
       "title": "Tate McRae - It's ok I'm ok",
       "category": "西洋推薦",
@@ -413,19 +419,28 @@
   },
       {
       "title": "Alan Walker, Daya - Heart over Mind",
+      "category": "西洋推薦",
       "videoId": "3extEysZNa4",
       "description": "迷幻節奏融合深情嗓音，心與理智之間的掙扎如畫面般浮現。"
     },
     {
       "title": "J Balvin Ft. Anitta - Downtown",
+      "category": "西洋推薦",
       "videoId": "ZzLw2tdF3F0",
       "description": "拉丁律動與挑逗歌詞完美結合，性感與節奏感兼具的夜晚音樂。"
     },
     {
       "title": "16 - six weeks",
+      "category": "西洋推薦",
       "videoId": "WVc0m7THOb0",
       "description": "充滿迷離與靜謐感，短短六週的情感在旋律中慢慢釋放。"
     },
+     {
+    "title": "Anne-Marie & James Arthur - Rewrite The Stars",
+    "category": "西洋推薦",
+    "videoId": "pRfmrE0ToTo",
+    "description": "經典浪漫對唱，跨越命運書寫愛情的可能性。"
+  },
     {
       "title": "陳華 【這麼多年】",
       "category": "華語推薦",
@@ -626,19 +641,28 @@
   },
     {
       "title": "派偉俊 - We Are Young",
+      "category": "華語推薦",
       "videoId": "mB5ddDF-2po",
       "description": "節奏歡快，充滿青春能量，喚醒年輕世代對夢想的渴望。"
     },
     {
       "title": "夏偉淳LAH - 蔚藍色的海",
+      "category": "華語推薦",
       "videoId": "TqB5WhkPP38",
       "description": "宛如大海般清澈寧靜，歌曲傳達無限思念與希望。"
     },
     {
       "title": "任然 - 後繼者",
+      "category": "華語推薦",
       "videoId": "IPLRAbD-q9I",
       "description": "深沉嗓音訴說著傳承與離別，情感綿密令人動容。"
     },
+     {
+    "title": "于冬然 - 親愛的不要哭",
+    "category": "華語推薦",
+    "videoId": "Ah-_3lAqyM0",
+    "description": "療癒系嗓音安慰悲傷情緒，是一首擁抱般溫柔的安撫之歌。"
+  },
     {
       "title": "Tiësto & Ava Max - The Motto [DEAF - Remix]",
       "category": "電音推薦",
@@ -846,6 +870,12 @@
       "title": "MOGUAI, Keanu Silva, GRATIFY, K-391 - Getting Lost",
       "videoId": "jrmLiozSdpA",
       "description": "電音震撼力十足，節奏感與空靈感完美交錯，令人迷失在旋律中。"
-    }
+    },
+     {
+    "title": "Zerb & The Chainsmokers - Addicted ft. Ink",
+    "category": "電音推薦",
+    "videoId": "ROhlsgTOsgc",
+    "description": "迷離旋律中透露癮上愛情的節奏，中毒系電音佳作。"
+  }
   ]
 }
