@@ -198,18 +198,33 @@
     "videoId": "sZDMvAPYQuk",
     "description": "青春氣息十足，用節奏描繪二十歲的煩惱與渴望。"
   },
+    {
+    "title": "New Jeans - How Sweet",
+    "category": "日韓推薦",
+    "videoId": "vrM2mrI83uk",
+    "description": "甜美中帶點復古感，令人上癮的少女能量。"
+  },
+  {
+    "title": "YEJI - Air",
+    "category": "日韓推薦",
+    "videoId": "ez8WMQqX81Q",
+    "description": "自由奔放的旋律與歌聲，彷彿置身空氣之中。"
+  },
    {
       "title": "ベリーグッドマン - 花よりも花を咲かせる土になれ",
+      "category": "日韓推薦",
       "videoId": "ZBO9KhtXGmM",
       "description": "溫柔旋律與勵志歌詞交織，傳遞默默付出的堅定力量。"
     },
     {
       "title": "藤川千愛 - 尋夢",
+      "category": "日韓推薦",
       "videoId": "0W16us5sFno",
       "description": "輕柔歌聲如微風拂面，引領我們踏上尋夢旅程。"
     },
     {
       "title": "AYANE - 星に願いを",
+      "category": "日韓推薦",
       "videoId": "zdJYh8oDvuY",
       "description": "如夢似幻的旋律下，寄託對未來的溫柔願望。"
     },
@@ -285,6 +300,18 @@
       "videoId": "QpfhpZWvaiM",
       "description": "旋律深沉且帶有心碎質地，唱出對一段關係的反思與懷疑，勾起心底最柔軟的那一塊。"
     },
+    {
+    "title": "OneRepublic - If I Lose Myself (Alesso Remix)",
+    "category": "西洋推薦",
+    "videoId": "dLa_ryRjC7M",
+    "description": "經典混音版，結合搖滾與EDM，展現磅礡氣勢。"
+  },
+  {
+    "title": "Lauv - Enemies",
+    "category": "西洋推薦",
+    "videoId": "HZoX-10-VMs",
+    "description": "清新旋律配上Lauv獨有的情感嗓音，唱出關係中的拉扯與無奈。"
+  },
     {
       "title": "Keshi - War",
       "category": "西洋推薦",
@@ -663,12 +690,36 @@
     "videoId": "Ah-_3lAqyM0",
     "description": "療癒系嗓音安慰悲傷情緒，是一首擁抱般溫柔的安撫之歌。"
   },
+   {
+    "title": "陳墨一 - 你答應我的事",
+    "category": "華語推薦",
+    "videoId": "GxoWYBeYuuU",
+    "description": "情感真摯的詞曲，細膩勾勒內心深處的承諾與等待。"
+  },
+  {
+    "title": "戴羽彤 - 騙子",
+    "category": "華語推薦",
+    "videoId": "EnYd9IscpZU",
+    "description": "撕心裂肺的嗓音，唱出情感中的無奈與欺瞞。"
+  },
     {
       "title": "Tiësto & Ava Max - The Motto [DEAF - Remix]",
       "category": "電音推薦",
       "videoId": "ZuoxbR7SCtI",
       "description": "強烈節奏與動感旋律交織，絕對是派對與夜晚的能量補給。"
     },
+     {
+    "title": "Lavern - Where Did You Go ft. Lilly Ahlberg",
+    "category": "電音推薦",
+    "videoId": "HXoU8nhFZ14",
+    "description": "空靈嗓音搭配輕快旋律，適合深夜靜聽。"
+  },
+  {
+    "title": "Pendulum & Armin van Buuren - Sound of You",
+    "category": "電音推薦",
+    "videoId": "UkALtin4Lf4",
+    "description": "強勁節奏與磅礡音牆，電音迷不可錯過的震撼體驗。"
+  },
     {
       "title": "EQRIC, JOZUA, Robbe - TiK ToK",
       "category": "電音推薦",
