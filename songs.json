@@ -235,18 +235,6 @@
     "description": "強勁節奏與態度展現，BLACKPINK 再次跳出極致帥氣的魅力。"
   },
     {
-    "title": "New Jeans - How Sweet",
-    "category": "日韓推薦",
-    "videoId": "vrM2mrI83uk",
-    "description": "甜美中帶點復古感，令人上癮的少女能量。"
-  },
-  {
-    "title": "YEJI - Air",
-    "category": "日韓推薦",
-    "videoId": "ez8WMQqX81Q",
-    "description": "自由奔放的旋律與歌聲，彷彿置身空氣之中。"
-  },
-    {
       "title": "Tate McRae - It's ok I'm ok",
       "category": "西洋推薦",
       "videoId": "Bpaf6Dm9iRc",
@@ -479,18 +467,6 @@
     "category": "西洋推薦",
     "videoId": "pRfmrE0ToTo",
     "description": "經典浪漫對唱，跨越命運書寫愛情的可能性。"
-  },
-  {
-    "title": "OneRepublic - If I Lose Myself (Alesso Remix)",
-    "category": "西洋推薦",
-    "videoId": "dLa_ryRjC7M",
-    "description": "經典混音版，結合搖滾與EDM，展現磅礡氣勢。"
-  },
-  {
-    "title": "Lauv - Enemies",
-    "category": "西洋推薦",
-    "videoId": "HZoX-10-VMs",
-    "description": "清新旋律配上Lauv獨有的情感嗓音，唱出關係中的拉扯與無奈。"
   },
     {
       "title": "陳華 【這麼多年】",
@@ -951,18 +927,6 @@
     "category": "電音推薦",
     "videoId": "ROhlsgTOsgc",
     "description": "迷離旋律中透露癮上愛情的節奏，中毒系電音佳作。"
-  },
-   {
-    "title": "Lavern - Where Did You Go ft. Lilly Ahlberg",
-    "category": "電音推薦",
-    "videoId": "HXoU8nhFZ14",
-    "description": "空靈嗓音搭配輕快旋律，適合深夜靜聽。"
-  },
-  {
-    "title": "Pendulum & Armin van Buuren - Sound of You",
-    "category": "電音推薦",
-    "videoId": "UkALtin4Lf4",
-    "description": "強勁節奏與磅礡音牆，電音迷不可錯過的震撼體驗。"
   }
   ]
 }
