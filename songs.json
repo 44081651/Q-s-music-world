@@ -234,6 +234,36 @@
     "videoId": "CgCVZdcKcqY",
     "description": "強勁節奏與態度展現，BLACKPINK 再次跳出極致帥氣的魅力。"
   },
+  {
+    "title": "Gic - 「春景色」",
+    "category": "日韓推薦",
+    "videoId": "Gnsu_rgiGwQ",
+    "description": "溫柔旋律中，描繪春日景致與青春的悸動。"
+  },
+  {
+    "title": "坂田隆一郎 - あまいの (amaino)",
+    "category": "日韓推薦",
+    "videoId": "kI849hDU4XU",
+    "description": "甜蜜歌聲與節奏，勾勒戀愛中的幸福片段。"
+  },
+  {
+    "title": "TRUE - 「rebind」",
+    "category": "日韓推薦",
+    "videoId": "4h7up5zbkac",
+    "description": "深刻情感與磅礡旋律融合，令人震撼。"
+  },
+  {
+    "title": "tonun – Friday Night",
+    "category": "日韓推薦",
+    "videoId": "YF6DCL2jvYM",
+    "description": "放鬆夜晚專屬旋律，輕鬆愉悅的音樂旅程。"
+  },
+  {
+    "title": "乃木坂46 - 『これから』",
+    "category": "日韓推薦",
+    "videoId": "Rw3tIDxtmKs",
+    "description": "日系偶像的純真歌聲，充滿希望與未來感。"
+  },
     {
       "title": "Tate McRae - It's ok I'm ok",
       "category": "西洋推薦",
@@ -467,6 +497,36 @@
     "category": "西洋推薦",
     "videoId": "pRfmrE0ToTo",
     "description": "經典浪漫對唱，跨越命運書寫愛情的可能性。"
+  },
+  {
+    "title": "Cheat Codes, Enisa, Edward Maya - Be Your Friend",
+    "category": "西洋推薦",
+    "videoId": "QeY7yzNWCag",
+    "description": "動感旋律搭配異國風情，完美展現友情與節奏的融合。"
+  },
+  {
+    "title": "GIVĒON - TWENTIES",
+    "category": "西洋推薦",
+    "videoId": "F5S0rnc3828",
+    "description": "低沉嗓音與節奏融合，唱出二十代的孤獨與迷惘。"
+  },
+  {
+    "title": "Fly By Midnight - Running",
+    "category": "西洋推薦",
+    "videoId": "QalSRb3TK5s",
+    "description": "節奏鮮明，描寫奔跑在夢想與現實之間的身影。"
+  },
+  {
+    "title": "Giulio Cercato - Take Me Home",
+    "category": "西洋推薦",
+    "videoId": "N6CG9pz-lmA",
+    "description": "細膩旋律中流露思鄉情懷，令人感動不已。"
+  },
+  {
+    "title": "Tate McRae - No I'm not in love",
+    "category": "西洋推薦",
+    "videoId": "KZgYUwuj2I4",
+    "description": "傷感與灑脫交織的旋律，直擊人心。"
   },
     {
       "title": "陳華 【這麼多年】",
@@ -702,6 +762,36 @@
     "videoId": "EnYd9IscpZU",
     "description": "撕心裂肺的嗓音，唱出情感中的無奈與欺瞞。"
   },
+  {
+    "title": "井迪 - 失控",
+    "category": "華語推薦",
+    "videoId": "0swKZBxTNEQ",
+    "description": "情緒崩潰邊緣的傾訴，令人心碎。"
+  },
+  {
+    "title": "張遠 - 嘉賓",
+    "category": "華語推薦",
+    "videoId": "jPzkNvWOcGc",
+    "description": "愛情過客的遺憾，道出人生的相遇與別離。"
+  },
+  {
+    "title": "溫婉之 - 前男友",
+    "category": "華語推薦",
+    "videoId": "iRbEDqqEckk",
+    "description": "回憶過往戀情，唱出一段難以放下的故事。"
+  },
+  {
+    "title": "范茹 - 總有人適合",
+    "category": "華語推薦",
+    "videoId": "x-VnlYoreEg",
+    "description": "勵志溫柔的歌詞，唱給每個尋愛的靈魂。"
+  },
+  {
+    "title": "小阿七 - 心頭刺",
+    "category": "華語推薦",
+    "videoId": "MPeEZmNunAA",
+    "description": "旋律如針刺心頭，表達深層情感創傷。"
+  },
     {
       "title": "Tiësto & Ava Max - The Motto [DEAF - Remix]",
       "category": "電音推薦",
@@ -909,16 +999,19 @@
 
     {
       "title": "Dj Regard - Ride It",
+      "category": "電音推薦",
       "videoId": "sf2s8US-Pfw",
       "description": "迷幻節奏搭配流暢旋律，是派對夜晚的完美開場曲。"
     },
     {
       "title": "NOTD, Mercer Henderson - WIFI",
+      "category": "電音推薦",
       "videoId": "KkIE3UjAzWk",
       "description": "新潮又帶點俏皮的主題，WIFI 化身愛情連結的隱喻。"
     },
     {
       "title": "MOGUAI, Keanu Silva, GRATIFY, K-391 - Getting Lost",
+      "category": "電音推薦",
       "videoId": "jrmLiozSdpA",
       "description": "電音震撼力十足，節奏感與空靈感完美交錯，令人迷失在旋律中。"
     },
@@ -927,6 +1020,36 @@
     "category": "電音推薦",
     "videoId": "ROhlsgTOsgc",
     "description": "迷離旋律中透露癮上愛情的節奏，中毒系電音佳作。"
+  },
+  {
+    "title": "EEYUH! x Fluxxwave (Slowed + Reverb)",
+    "category": "電音推薦",
+    "videoId": "GMh-mTTOnkg",
+    "description": "迷幻氛圍搭配低頻重節奏，讓人沉醉其中。"
+  },
+  {
+    "title": "Michael Calfan x INNA - Call Me Now",
+    "category": "電音推薦",
+    "videoId": "VUFGZLrN6ck",
+    "description": "電音節奏與迷人嗓音完美結合，讓人一聽難忘。"
+  },
+  {
+    "title": "KAROL G - Papasito",
+    "category": "電音推薦",
+    "videoId": "15iEJ0qY_70",
+    "description": "拉丁節奏搭配魅力嗓音，讓人忍不住隨之舞動。"
+  },
+  {
+    "title": "INJI - ALL I WANNA DO",
+    "category": "電音推薦",
+    "videoId": "Bb92Q24kIQA",
+    "description": "輕快俏皮的節奏，唱出滿滿夏日戀愛氛圍。"
+  },
+  {
+    "title": "Young Cister, Kreamly - QLOO*",
+    "category": "電音推薦",
+    "videoId": "u6Fkx2I2ksI",
+    "description": "前衛節奏與流行融合，展現新世代的音樂態度。"
   }
   ]
 }
