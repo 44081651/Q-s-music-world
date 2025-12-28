@@ -336,6 +336,18 @@
     "videoId": "gwRqLbWqKlM",
     "description": "魅力全開的個性舞曲。"
   },
+    {
+    "title": "fromis_9 - LIKE YOU BETTER",
+    "category": "日韓推薦",
+    "videoId": "r1QapH1SIAI",
+    "description": "甜美清新的風格，捕捉年輕世代對愛情的純粹悸動。"
+  },
+  {
+    "title": "aespa - Dirty Work",
+    "category": "日韓推薦",
+    "videoId": "M2WTUoy4y6E",
+    "description": "強烈節奏與未來感編曲，展現自信與不妥協的態度。"
+  },
   {
     "title": "Lenji, Erik Næss - Those Were The Days",
     "category": "西洋推薦",
@@ -678,6 +690,18 @@
     "videoId": "od5qQ84pKIo",
     "description": "真摯低語般的嗓音，吐露愛與歉意。"
   },
+  {
+    "title": "七元 - Bleeding Love",
+    "category": "西洋推薦",
+    "videoId": "XRHbh5zKzDU",
+    "description": "情感張力十足的詮釋，讓愛與受傷交織成深刻旋律。"
+  },
+  {
+    "title": "augi v - your game",
+    "category": "西洋推薦",
+    "videoId": "5gKcqjZhxxc",
+    "description": "節奏感鮮明，融合電子元素，描寫情感中的試探與角力。"
+  },
     {
       "title": "陳華 【這麼多年】",
       "category": "華語推薦",
@@ -1015,6 +1039,18 @@
     "description": "細數回憶中的愛與溫柔。"
   },
     {
+    "title": "Sasablue - 最後一頁",
+    "category": "華語推薦",
+    "videoId": "yr4WKlmc5vM",
+    "description": "情感細膩，描繪人生走到最後一頁時的回望與釋懷。"
+  },
+  {
+    "title": "丁芙妮 - 走到過一半的人",
+    "category": "華語推薦",
+    "videoId": "wb-6iYwzX7I",
+    "description": "溫暖嗓音中帶著脆弱，唱出愛情旅途中進退兩難的心境。"
+  },
+    {
       "title": "Tiësto & Ava Max - The Motto [DEAF - Remix]",
       "category": "電音推薦",
       "videoId": "ZuoxbR7SCtI",
@@ -1350,6 +1386,18 @@
     "category": "電音推薦",
     "videoId": "wsXptjjXxLs",
     "description": "未來感十足的電子音浪。"
+  },
+    {
+    "title": "Elley Duhé & Whethan - MONEY ON THE DASH",
+    "category": "電音推薦",
+    "videoId": "0_v8IfJKhFY",
+    "description": "節奏俐落直接，融合電音與流行，充滿速度與態度。"
+  },
+  {
+    "title": "FAST BOY - Good Life",
+    "category": "電音推薦",
+    "videoId": "lNb93r94K6M",
+    "description": "旋律明亮輕快，帶出對美好生活的嚮往與正向能量。"
   }
   ]
 }
